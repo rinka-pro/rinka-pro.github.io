@@ -1,5 +1,5 @@
 window.onload = function() {
-	var linksShortener = {
+	window.linksShortener = {
 		total: 0,
 		perPage: 30
 	}
