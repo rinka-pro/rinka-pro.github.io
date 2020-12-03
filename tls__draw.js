@@ -53,8 +53,8 @@ function drawLinkBlock(link) {
 
 	html += '<div class="tls__link-block" data-link-id="' + link.shorturl + '">';
 	html += '<div class="tls__link-created">' + formatDate(link.created) + '</div>';
-	html += '<div class="tls__url-wrap"><a class="tls__link-fullurl" href="' + link.fullurl + '" target="_blank" rel="noreferrer nofollow">' + link.fullurl + '</a></div>';
-	html += '<div class="tls__url-wrap tls__url-wrap--shorturl"><a class="tls__link-shorturl" href="https://tilda.link/' + link.shorturl + alias + '" target="_blank" rel="noreferrer nofollow">' + 'https://tilda.link/' + link.shorturl + alias + '</a>';
+	html += '<div class="tls__url-wrap"><a class="tls__link-fullurl" href="' + link.fullurl + '" target="_blank" rel="noreferrer noopener">' + link.fullurl + '</a></div>';
+	html += '<div class="tls__url-wrap tls__url-wrap--shorturl"><a class="tls__link-shorturl" href="https://tilda.link/' + link.shorturl + alias + '" target="_blank" rel="noreferrer noopener">' + 'https://tilda.link/' + link.shorturl + alias + '</a>';
 	html += '<button class="tls__link-action-btn tls__link-action-btn-copy" title="Copy to clipboard">';
 	html += '<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="22" viewBox="0 0 32 28" width="32" stroke="#000">';
 	html += '<path d="m3 0h-3v12.1051h10.625v-2.28068m-2.96196-9.82442h2.96196v4.43852" transform="matrix(2 0 0 2 2 2.45703)" />';
