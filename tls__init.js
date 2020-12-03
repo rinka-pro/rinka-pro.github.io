@@ -1,10 +1,11 @@
-var linksShortener = {
-	total: 0,
-	perPage: 30
+window.onload = function() {
+	var linksShortener = {
+		total: 0,
+		perPage: 30
+	}
+	function linksShortenerInit() {
+		drawPage()
+	}
+	linksShortenerInit()
 }
 
-function linksShortenerInit() {
-	drawPage()
-}
-
-linksShortenerInit()
